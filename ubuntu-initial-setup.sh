@@ -7,14 +7,14 @@ sudo apt update
 sudo apt -y upgrade
 
 # Remove not needed package dependencies and clear out local repository of retrieved package files
-sudo apr -y autoremove
+sudo apt -y autoremove
 sudo apt autoclean
 
 # Enable ufw firewall
 sudo ufw enable
 
 # Install basic applications and tools
-sudo apt -y install vlc gimp gnome-builder clamav chkrootkit lynis
+sudo apt -y install vlc gimp p7zip-full gnome-builder clamav chkrootkit lynis
 
 # Install basic snap applications and tools
 sudo snap install chromium brave
